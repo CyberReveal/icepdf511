@@ -53,7 +53,7 @@ public class BareBonesBrowserLaunch {
      * @param url An absolute URL of a web page (ex: "http://www.google.com/")
      */
     public static void openURL(String url) {
-        try {
+     /*   try {
             if (logger.isLoggable(Level.FINE)) {
                 logger.fine("Opening URL: " + url);
             }
@@ -88,7 +88,7 @@ public class BareBonesBrowserLaunch {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, errMsg + ":\n" +
                     e.getLocalizedMessage());
-        }
+        }*/
     }
 
 
