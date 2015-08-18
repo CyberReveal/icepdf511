@@ -90,7 +90,7 @@ public class LineText extends AbstractText implements TextSelect {
             WordText spaceWord = currentWord.buildSpaceWord(sprite);
             spaceWord.setWhiteSpace(true);
             // add space word,
-            addWord(spaceWord);
+           // addWord(spaceWord);
             // ready a new word
             currentWord = null;
             // add the text again to register the glyph
